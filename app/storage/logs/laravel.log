@@ -1,0 +1,690 @@
+[2015-01-20 20:00:12] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:00:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:01:05] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /mnt/dati/prj/www/camelug/app/routes_admins.php:56
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/app/routes_admins.php(56): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/mnt/dati/prj/w...', 56, Array)
+#1 [internal function]: {closure}()
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:01:15] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:02:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:02:20] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /mnt/dati/prj/www/camelug/app/routes_admins.php:56
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/app/routes_admins.php(56): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/mnt/dati/prj/w...', 56, Array)
+#1 [internal function]: {closure}()
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:08:49] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /mnt/dati/prj/www/camelug/app/routes_admins.php:56
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/app/routes_admins.php(56): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/mnt/dati/prj/w...', 56, Array)
+#1 [internal function]: {closure}()
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 20:10:24] production.ERROR: exception 'ErrorException' with message 'preg_replace(): Parameter mismatch, pattern is a string while replacement is an array' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Support/helpers.php:900
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'preg_replace():...', '/mnt/dati/prj/w...', 900, Array)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Support/helpers.php(900): preg_replace('/\\?/', Array, 'update `config`...', 1)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/QueryException.php(55): str_replace_array('\\?', Array, 'update `config`...')
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/QueryException.php(37): Illuminate\Database\QueryException->formatMessage('update `config`...', Array, Object(PDOException))
+#4 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(627): Illuminate\Database\QueryException->__construct('update `config`...', Array, Object(PDOException))
+#5 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('update `config`...', Array, Object(Closure))
+#6 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(394): Illuminate\Database\Connection->run('update `config`...', Array, Object(Closure))
+#7 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(339): Illuminate\Database\Connection->affectingStatement('update `config`...', Array)
+#8 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1911): Illuminate\Database\Connection->update('update `config`...', Array)
+#9 /mnt/dati/prj/www/camelug/app/routes_admins.php(65): Illuminate\Database\Query\Builder->update(Array)
+#10 [internal function]: {closure}()
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2015-01-20 20:55:20] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /mnt/dati/prj/www/camelug/app/routes.php:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 20:55:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /mnt/dati/prj/www/camelug/app/routes.php:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 21:00:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':'' in /mnt/dati/prj/www/camelug/app/routes.php:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 21:44:37] production.ERROR: exception 'InvalidArgumentException' with message 'View [user.login.denied] not found.' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:9498
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9471): Illuminate\View\FileViewFinder->findInPaths('user.login.deni...', Array)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('user.login.deni...')
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\View\Factory->make('user.login.deni...')
+#3 /mnt/dati/prj/www/camelug/app/routes_users.php(6): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /mnt/dati/prj/www/camelug/app/routes_users.php(6): Illuminate\Support\Facades\View::make('user.login.deni...')
+#5 [internal function]: {closure}()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2015-01-20 21:44:59] production.ERROR: exception 'InvalidArgumentException' with message 'View [user.login.denied] not found.' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:9498
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9471): Illuminate\View\FileViewFinder->findInPaths('user.login.deni...', Array)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('user.login.deni...')
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\View\Factory->make('user.login.deni...')
+#3 /mnt/dati/prj/www/camelug/app/routes_users.php(6): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /mnt/dati/prj/www/camelug/app/routes_users.php(6): Illuminate\Support\Facades\View::make('user.login.deni...')
+#5 [internal function]: {closure}()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2015-01-20 22:01:23] production.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::can()' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:2170
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('can', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->can(NULL, NULL)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(935): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('can', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->can(NULL, NULL)
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7516): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Model->__call('can', Array)
+#7 [internal function]: Configz->can(NULL, NULL)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7521): call_user_func_array(Array, Array)
+#9 /mnt/dati/prj/www/camelug/app/models/Configz.php(31): Illuminate\Database\Eloquent\Model::__callStatic('can', Array)
+#10 /mnt/dati/prj/www/camelug/app/models/Configz.php(31): Configz::can(NULL, NULL)
+#11 /mnt/dati/prj/www/camelug/app/routes_users.php(17): Configz::canRegister()
+#12 [internal function]: {closure}()
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-20 22:43:07] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:299
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(299): PDO->prepare('select clues_pr...')
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select clues_pr...', Array)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#9 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#10 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#11 [internal function]: {closure}()
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#22 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1 (SQL: select clues_progress.id,clues_progress.end as position,prizes.description,users.username as winner from (clues_progress left join prizes on (clues_progress.end=prizes.position) )  join  users on (users.id=clues_progress.uid) where (clues_progress.end!=0)   order by clues_progress.end asc limit ?;,array(Game::RANK_SHOW_LIMIT))' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#2 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#6 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#7 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#9 [internal function]: {closure}()
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2015-01-20 22:43:17] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:299
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(299): PDO->prepare('select clues_pr...')
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select clues_pr...', Array)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#9 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#10 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#11 [internal function]: {closure}()
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#22 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1 (SQL: select clues_progress.id,clues_progress.end as position,prizes.description,users.username as winner from (clues_progress left join prizes on (clues_progress.end=prizes.position) )  join  users on (users.id=clues_progress.uid) where (clues_progress.end!=0)   order by clues_progress.end asc limit ?;,array(Game::RANK_SHOW_LIMIT))' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#2 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#6 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#7 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#9 [internal function]: {closure}()
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2015-01-20 22:43:46] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:299
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(299): PDO->prepare('select clues_pr...')
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select clues_pr...', Array)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#9 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#10 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#11 [internal function]: {closure}()
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#22 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'array(Game::RANK_SHOW_LIMIT)' at line 1 (SQL: select clues_progress.id,clues_progress.end as position,prizes.description,users.username as winner from (clues_progress left join prizes on (clues_progress.end=prizes.position) )  join  users on (users.id=clues_progress.uid) where (clues_progress.end!=0)   order by clues_progress.end asc limit ?;,array(Game::RANK_SHOW_LIMIT))' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('select clues_pr...', Array, Object(Closure))
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(304): Illuminate\Database\Connection->run('select clues_pr...', Array, Object(Closure))
+#2 [internal function]: Illuminate\Database\Connection->select('select clues_pr...')
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7664): call_user_func_array(Array, Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->__call('select', Array)
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(3259): Illuminate\Database\DatabaseManager->select('select clues_pr...')
+#6 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#7 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(56): Illuminate\Support\Facades\DB::select('select clues_pr...')
+#8 /mnt/dati/prj/www/camelug/app/routes_users.php(185): ClueController::getCurrentClue(Object(User))
+#9 [internal function]: {closure}()
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2015-01-21 09:55:57] production.ERROR: exception 'ErrorException' with message 'Division by zero' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:30
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b(30): Illuminate\Exception\Handler->handleError(2, 'Division by zer...', '/mnt/dati/prj/w...', 30, Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9867): include('/mnt/dati/prj/w...')
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/mnt/dati/prj/w...', Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/mnt/dati/prj/w...', Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Division by zero (View: /mnt/dati/prj/www/camelug/app/views/admin/inusers.blade.php)' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:30
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/mnt/dati/prj/w...', Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/mnt/dati/prj/w...', Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-01-21 10:00:32] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:00:53] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:01:35] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:01:52] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:02:16] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:02:35] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:03:48] production.ERROR: exception 'ErrorException' with message 'Division by zero' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:30
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b(30): Illuminate\Exception\Handler->handleError(2, 'Division by zer...', '/mnt/dati/prj/w...', 30, Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9867): include('/mnt/dati/prj/w...')
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/mnt/dati/prj/w...', Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/mnt/dati/prj/w...', Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Division by zero (View: /mnt/dati/prj/www/camelug/app/views/admin/inusers.blade.php)' in /mnt/dati/prj/www/camelug/app/storage/views/d3e066d579a767f29e4ef57c03cca08b:30
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/mnt/dati/prj/w...', Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/mnt/dati/prj/w...', Array)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-01-21 10:14:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Undefined class constant 'BASEURL'' in /mnt/dati/prj/www/camelug/app/routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:14:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Undefined class constant 'BASEURL'' in /mnt/dati/prj/www/camelug/app/routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 10:14:33] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Undefined class constant 'BASEURL'' in /mnt/dati/prj/www/camelug/app/routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 11:12:33] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in /mnt/dati/prj/www/camelug/app/storage/views/75fd256ea02195d6d6026f019eee0b38:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-21 11:23:27] production.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `cl...', Array)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(327): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(935): call_user_func_array(Array, Array)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(216): Illuminate\Database\Eloquent\Model->save()
+#14 /mnt/dati/prj/www/camelug/app/routes_admins.php(304): ClueController::createQrCode(Object(Clue))
+#15 [internal function]: {closure}()
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#23 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#24 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#25 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#26 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' (SQL: insert into `clues_data` (`qrcode`, `svgqrcode`, `id`) values (iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFZElEQVR4nO3dS44bNxRAUXeQHWX/S8ia5EGGigG6mj/5njO2S3L7gkA/sMiv1+v1Axr+Ov0FYB+5EyJ3QuROiNwJkTshcidE7oTInRC5EyJ3QuROiNwJkTshcidE7oTInRC5EyJ3QuROiNwJkTshcidE7oTInZC/5z7u68c/cx/4W14//n3wt96/8/tzRv7MLCM/w5FvOPK3Zn2fdeb+nK3uhMidELkTIndC5E7I5MnMu7MTjFkTlWezmmczjVnfcMSzn8/Z/9PvsLoTIndC5E6I3AmROyHLJzPvbptXjPyZnftq1v181u382fl/+h1Wd0LkTojcCZE7IXIn5MBkZqezU46zO1J2voH1KazuhMidELkTIndC5E7IHz6Z2TktmfV21bNvePY0mE9hdSdE7oTInRC5EyJ3Qg5MZnbu3Hg2r3h2mu66s2jWne47y6fsxrG6EyJ3QuROiNwJkTshyyczt+3l2Dk/mfVZZ7/PyJM/hdWdELkTIndC5E6I3An5er1ep7/DVmfPqp01CTl7D9TnsroTIndC5E6I3AmROyGT98ys200xaxax88mzdq2su5fq2XtSO3cHzWV1J0TuhMidELkTIndClu+ZOfuOz84dKbe9K7Tuzu7P3bFjdSdE7oTInRC5EyJ3QiZPZm6bw/wZZ62se5fq2aeve449MzCN3AmROyFyJ0TuhCyfzLy74Tf033X2dqTb3hFbtxtn1mf9itWdELkTIndC5E6I3AlZfjfTbfccjRiZBtz/WTtPp5k1P7FnBqaROyFyJ0TuhMidkI/ZM/OJ9xPdtv9kpzt3RlndCZE7IXInRO6EyJ2QAycAj9i5S+TdrM9ad7bwiJ0nG4+4YVZjdSdE7oTInRC5EyJ3Qq64NXvdezfvnk0D1s1h1p02PGvf0c75yerPsroTIndC5E6I3AmROyGTJzOz9ld84rtL697SWndWz4ide13smYFp5E6I3AmROyFyJ+SKc2aePXnnWbU7p0Bn99U8s26/0FxWd0LkTojcCZE7IXIn5MBk5t2s/TCzPmvdJGSdWd9553NGnuxtJnhI7oTInRC5EyJ3Qg7cmr3ub61z2zm9O2dZZ3crzWV1J0TuhMidELkTIndClk9m3q27D+i2vTeznvPsjOJZ5/2u424mWEjuhMidELkTIndClr/NdPY0mNtu3173rtDZt6vuPwnnP1Z3QuROiNwJkTshcifkwJ6ZZ2ZNVHaeo7LzPqmzZ/k+u2Fq5NPnsroTIndC5E6I3AmROyGXTmZuO6t21s6f286QWbej6ey/61es7oTInRC5EyJ3QuROyBXnzDz7TX/ne0kj1p2Ns+6drGezkVkTFbdmw0JyJ0TuhMidELkTMvmcmdvcdvPRuneORj5r5w1TI0xmYCG5EyJ3QuROiNwJmbxn5v5zaGc9eda/9Nm0ZOf7RLPuipr15O+wuhMid0LkTojcCZE7IcvfZlr3u/bOO4zWvT2081ajnTtb1p268x1Wd0LkTojcCZE7IXIn5IpzZkacvUd75PvcNvOZdcvSM/unLiOs7oTInRC5EyJ3QuROyKV3M91m3R3ZO891Gfn0necze5sJFpI7IXInRO6EyJ0Qk5n/sW6iMmt6s25aMuKG3S/PWN0JkTshcidE7oTInZADk5mzv8XPuq3p7JNH7LyF6ra7on7F6k6I3AmROyFyJ0TuhCyfzJy9rWmndZOQdXcqrXvn6M57tK3uhMidELkTIndC5E7I1+v1Ov0dYBOrOyFyJ0TuhMidELkTIndC5E6I3AmROyFyJ0TuhMidELkTIndC5E6I3AmROyFyJ0TuhMidELkTIndC5E6I3AmROyE/AZqsG9XEDTnBAAAAAElFTkSuQmCC, <1xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="41px" height="41px"><defs><rect id="r0" width="1" height="1" fill="#00ff32"/></defs><rect x="0" y="0" width="41" height="41" fill="#ffffff"/><use x="4" y="4" xlink:href="#r0"/><use x="5" y="4" xlink:href="#r0"/><use x="6" y="4" xlink:href="#r0"/><use x="7" y="4" xlink:href="#r0"/><use x="8" y="4" xlink:href="#r0"/><use x="9" y="4" xlink:href="#r0"/><use x="10" y="4" xlink:href="#r0"/><use x="14" y="4" xlink:href="#r0"/><use x="16" y="4" xlink:href="#r0"/><use x="22" y="4" xlink:href="#r0"/><use x="23" y="4" xlink:href="#r0"/><use x="25" y="4" xlink:href="#r0"/><use x="26" y="4" xlink:href="#r0"/><use x="30" y="4" xlink:href="#r0"/><use x="31" y="4" xlink:href="#r0"/><use x="32" y="4" xlink:href="#r0"/><use x="33" y="4" xlink:href="#r0"/><use x="34" y="4" xlink:href="#r0"/><use x="35" y="4" xlink:href="#r0"/><use x="36" y="4" xlink:href="#r0"/><use x="4" y="5" xlink:href="#r0"/><use x="10" y="5" xlink:href="#r0"/><use x="12" y="5" xlink:href="#r0"/><use x="14" y="5" xlink:href="#r0"/><use x="17" y="5" xlink:href="#r0"/><use x="19" y="5" xlink:href="#r0"/><use x="20" y="5" xlink:href="#r0"/><use x="21" y="5" xlink:href="#r0"/><use x="28" y="5" xlink:href="#r0"/><use x="30" y="5" xlink:href="#r0"/><use x="36" y="5" xlink:href="#r0"/><use x="4" y="6" xlink:href="#r0"/><use x="6" y="6" xlink:href="#r0"/><use x="7" y="6" xlink:href="#r0"/><use x="8" y="6" xlink:href="#r0"/><use x="10" y="6" xlink:href="#r0"/><use x="16" y="6" xlink:href="#r0"/><use x="18" y="6" xlink:href="#r0"/><use x="22" y="6" xlink:href="#r0"/><use x="23" y="6" xlink:href="#r0"/><use x="24" y="6" xlink:href="#r0"/><use x="27" y="6" xlink:href="#r0"/><use x="30" y="6" xlink:href="#r0"/><use x="32" y="6" xlink:href="#r0"/><use x="33" y="6" xlink:href="#r0"/><use x="34" y="6" xlink:href="#r0"/><use x="36" y="6" xlink:href="#r0"/><use x="4" y="7" xlink:href="#r0"/><use x="6" y="7" xlink:href="#r0"/><use x="7" y="7" xlink:href="#r0"/><use x="8" y="7" xlink:href="#r0"/><use x="10" y="7" xlink:href="#r0"/><use x="12" y="7" xlink:href="#r0"/><use x="13" y="7" xlink:href="#r0"/><use x="14" y="7" xlink:href="#r0"/><use x="16" y="7" xlink:href="#r0"/><use x="17" y="7" xlink:href="#r0"/><use x="19" y="7" xlink:href="#r0"/><use x="26" y="7" xlink:href="#r0"/><use x="30" y="7" xlink:href="#r0"/><use x="32" y="7" xlink:href="#r0"/><use x="33" y="7" xlink:href="#r0"/><use x="34" y="7" xlink:href="#r0"/><use x="36" y="7" xlink:href="#r0"/><use x="4" y="8" xlink:href="#r0"/><use x="6" y="8" xlink:href="#r0"/><use x="7" y="8" xlink:href="#r0"/><use x="8" y="8" xlink:href="#r0"/><use x="10" y="8" xlink:href="#r0"/><use x="13" y="8" xlink:href="#r0"/><use x="18" y="8" xlink:href="#r0"/><use x="19" y="8" xlink:href="#r0"/><use x="20" y="8" xlink:href="#r0"/><use x="22" y="8" xlink:href="#r0"/><use x="25" y="8" xlink:href="#r0"/><use x="26" y="8" xlink:href="#r0"/><use x="30" y="8" xlink:href="#r0"/><use x="32" y="8" xlink:href="#r0"/><use x="33" y="8" xlink:href="#r0"/><use x="34" y="8" xlink:href="#r0"/><use x="36" y="8" xlink:href="#r0"/><use x="4" y="9" xlink:href="#r0"/><use x="10" y="9" xlink:href="#r0"/><use x="12" y="9" xlink:href="#r0"/><use x="13" y="9" xlink:href="#r0"/><use x="15" y="9" xlink:href="#r0"/><use x="16" y="9" xlink:href="#r0"/><use x="19" y="9" xlink:href="#r0"/><use x="21" y="9" xlink:href="#r0"/><use x="22" y="9" xlink:href="#r0"/><use x="23" y="9" xlink:href="#r0"/><use x="24" y="9" xlink:href="#r0"/><use x="30" y="9" xlink:href="#r0"/><use x="36" y="9" xlink:href="#r0"/><use x="4" y="10" xlink:href="#r0"/><use x="5" y="10" xlink:href="#r0"/><use x="6" y="10" xlink:href="#r0"/><use x="7" y="10" xlink:href="#r0"/><use x="8" y="10" xlink:href="#r0"/><use x="9" y="10" xlink:href="#r0"/><use x="10" y="10" xlink:href="#r0"/><use x="12" y="10" xlink:href="#r0"/><use x="14" y="10" xlink:href="#r0"/><use x="16" y="10" xlink:href="#r0"/><use x="18" y="10" xlink:href="#r0"/><use x="20" y="10" xlink:href="#r0"/><use x="22" y="10" xlink:href="#r0"/><use x="24" y="10" xlink:href="#r0"/><use x="26" y="10" xlink:href="#r0"/><use x="28" y="10" xlink:href="#r0"/><use x="30" y="10" xlink:href="#r0"/><use x="31" y="10" xlink:href="#r0"/><use x="32" y="10" xlink:href="#r0"/><use x="33" y="10" xlink:href="#r0"/><use x="34" y="10" xlink:href="#r0"/><use x="35" y="10" xlink:href="#r0"/><use x="36" y="10" xlink:href="#r0"/><use x="13" y="11" xlink:href="#r0"/><use x="14" y="11" xlink:href="#r0"/><use x="15" y="11" xlink:href="#r0"/><use x="20" y="11" xlink:href="#r0"/><use x="23" y="11" xlink:href="#r0"/><use x="25" y="11" xlink:href="#r0"/><use x="26" y="11" xlink:href="#r0"/><use x="27" y="11" xlink:href="#r0"/><use x="4" y="12" xlink:href="#r0"/><use x="5" y="12" xlink:href="#r0"/><use x="6" y="12" xlink:href="#r0"/><use x="7" y="12" xlink:href="#r0"/><use x="8" y="12" xlink:href="#r0"/><use x="10" y="12" xlink:href="#r0"/><use x="11" y="12" xlink:href="#r0"/><use x="12" y="12" xlink:href="#r0"/><use x="13" y="12" xlink:href="#r0"/><use x="15" y="12" xlink:href="#r0"/><use x="19" y="12" xlink:href="#r0"/><use x="21" y="12" xlink:href="#r0"/><use x="25" y="12" xlink:href="#r0"/><use x="28" y="12" xlink:href="#r0"/><use x="29" y="12" xlink:href="#r0"/><use x="31" y="12" xlink:href="#r0"/><use x="33" y="12" xlink:href="#r0"/><use x="35" y="12" xlink:href="#r0"/><use x="5" y="13" xlink:href="#r0"/><use x="7" y="13" xlink:href="#r0"/><use x="9" y="13" xlink:href="#r0"/><use x="11" y="13" xlink:href="#r0"/><use x="14" y="13" xlink:href="#r0"/><use x="16" y="13" xlink:href="#r0"/><use x="17" y="13" xlink:href="#r0"/><use x="19" y="13" xlink:href="#r0"/><use x="22" y="13" xlink:href="#r0"/><use x="23" y="13" xlink:href="#r0"/><use x="24" y="13" xlink:href="#r0"/><use x="25" y="13" xlink:href="#r0"/><use x="29" y="13" xlink:href="#r0"/><use x="30" y="13" xlink:href="#r0"/><use x="32" y="13" xlink:href="#r0"/><use x="33" y="13" xlink:href="#r0"/><use x="34" y="13" xlink:href="#r0"/><use x="4" y="14" xlink:href="#r0"/><use x="6" y="14" xlink:href="#r0"/><use x="8" y="14" xlink:href="#r0"/><use x="10" y="14" xlink:href="#r0"/><use x="12" y="14" xlink:href="#r0"/><use x="14" y="14" xlink:href="#r0"/><use x="17" y="14" xlink:href="#r0"/><use x="18" y="14" xlink:href="#r0"/><use x="19" y="14" xlink:href="#r0"/><use x="20" y="14" xlink:href="#r0"/><use x="21" y="14" xlink:href="#r0"/><use x="22" y="14" xlink:href="#r0"/><use x="27" y="14" xlink:href="#r0"/><use x="28" y="14" xlink:href="#r0"/><use x="29" y="14" xlink:href="#r0"/><use x="31" y="14" xlink:href="#r0"/><use x="32" y="14" xlink:href="#r0"/><use x="33" y="14" xlink:href="#r0"/><use x="35" y="14" xlink:href="#r0"/><use x="4" y="15" xlink:href="#r0"/><use x="5" y="15" xlink:href="#r0"/><use x="7" y="15" xlink:href="#r0"/><use x="16" y="15" xlink:href="#r0"/><use x="17" y="15" xlink:href="#r0"/><use x="23" y="15" xlink:href="#r0"/><use x="24" y="15" xlink:href="#r0"/><use x="25" y="15" xlink:href="#r0"/><use x="26" y="15" xlink:href="#r0"/><use x="27" y="15" xlink:href="#r0"/><use x="29" y="15" xlink:href="#r0"/><use x="30" y="15" xlink:href="#r0"/><use x="34" y="15" xlink:href="#r0"/><use x="35" y="15" xlink:href="#r0"/><use x="36" y="15" xlink:href="#r0"/><use x="4" y="16" xlink:href="#r0"/><use x="6" y="16" xlink:href="#r0"/><use x="7" y="16" xlink:href="#r0"/><use x="8" y="16" xlink:href="#r0"/><use x="10" y="16" xlink:href="#r0"/><use x="12" y="16" xlink:href="#r0"/><use x="13" y="16" xlink:href="#r0"/><use x="14" y="16" xlink:href="#r0"/><use x="16" y="16" xlink:href="#r0"/><use x="18" y="16" xlink:href="#r0"/><use x="19" y="16" xlink:href="#r0"/><use x="20" y="16" xlink:href="#r0"/><use x="24" y="16" xlink:href="#r0"/><use x="25" y="16" xlink:href="#r0"/><use x="31" y="16" xlink:href="#r0"/><use x="34" y="16" xlink:href="#r0"/><use x="35" y="16" xlink:href="#r0"/><use x="4" y="17" xlink:href="#r0"/><use x="5" y="17" xlink:href="#r0"/><use x="7" y="17" xlink:href="#r0"/><use x="9" y="17" xlink:href="#r0"/><use x="11" y="17" xlink:href="#r0"/><use x="12" y="17" xlink:href="#r0"/><use x="13" y="17" xlink:href="#r0"/><use x="19" y="17" xlink:href="#r0"/><use x="20" y="17" xlink:href="#r0"/><use x="24" y="17" xlink:href="#r0"/><use x="25" y="17" xlink:href="#r0"/><use x="26" y="17" xlink:href="#r0"/><use x="27" y="17" xlink:href="#r0"/><use x="28" y="17" xlink:href="#r0"/><use x="29" y="17" xlink:href="#r0"/><use x="30" y="17" xlink:href="#r0"/><use x="31" y="17" xlink:href="#r0"/><use x="32" y="17" xlink:href="#r0"/><use x="34" y="17" xlink:href="#r0"/><use x="5" y="18" xlink:href="#r0"/><use x="6" y="18" xlink:href="#r0"/><use x="7" y="18" xlink:href="#r0"/><use x="9" y="18" xlink:href="#r0"/><use x="10" y="18" xlink:href="#r0"/><use x="15" y="18" xlink:href="#r0"/><use x="16" y="18" xlink:href="#r0"/><use x="19" y="18" xlink:href="#r0"/><use x="21" y="18" xlink:href="#r0"/><use x="22" y="18" xlink:href="#r0"/><use x="26" y="18" xlink:href="#r0"/><use x="28" y="18" xlink:href="#r0"/><use x="29" y="18" xlink:href="#r0"/><use x="31" y="18" xlink:href="#r0"/><use x="32" y="18" xlink:href="#r0"/><use x="33" y="18" xlink:href="#r0"/><use x="35" y="18" xlink:href="#r0"/><use x="4" y="19" xlink:href="#r0"/><use x="5" y="19" xlink:href="#r0"/><use x="6" y="19" xlink:href="#r0"/><use x="9" y="19" xlink:href="#r0"/><use x="13" y="19" xlink:href="#r0"/><use x="15" y="19" xlink:href="#r0"/><use x="18" y="19" xlink:href="#r0"/><use x="20" y="19" xlink:href="#r0"/><use x="23" y="19" xlink:href="#r0"/><use x="24" y="19" xlink:href="#r0"/><use x="25" y="19" xlink:href="#r0"/><use x="27" y="19" xlink:href="#r0"/><use x="29" y="19" xlink:href="#r0"/><use x="30" y="19" xlink:href="#r0"/><use x="35" y="19" xlink:href="#r0"/><use x="36" y="19" xlink:href="#r0"/><use x="5" y="20" xlink:href="#r0"/><use x="6" y="20" xlink:href="#r0"/><use x="8" y="20" xlink:href="#r0"/><use x="10" y="20" xlink:href="#r0"/><use x="11" y="20" xlink:href="#r0"/><use x="12" y="20" xlink:href="#r0"/><use x="15" y="20" xlink:href="#r0"/><use x="19" y="20" xlink:href="#r0"/><use x="21" y="20" xlink:href="#r0"/><use x="24" y="20" xlink:href="#r0"/><use x="25" y="20" xlink:href="#r0"/><use x="26" y="20" xlink:href="#r0"/><use x="29" y="20" xlink:href="#r0"/><use x="31" y="20" xlink:href="#r0"/><use x="35" y="20" xlink:href="#r0"/><use x="4" y="21" xlink:href="#r0"/><use x="5" y="21" xlink:href="#r0"/><use x="9" y="21" xlink:href="#r0"/><use x="12" y="21" xlink:href="#r0"/><use x="16" y="21" xlink:href="#r0"/><use x="17" y="21" xlink:href="#r0"/><use x="18" y="21" xlink:href="#r0"/><use x="22" y="21" xlink:href="#r0"/><use x="25" y="21" xlink:href="#r0"/><use x="26" y="21" xlink:href="#r0"/><use x="27" y="21" xlink:href="#r0"/><use x="32" y="21" xlink:href="#r0"/><use x="34" y="21" xlink:href="#r0"/><use x="4" y="22" xlink:href="#r0"/><use x="5" y="22" xlink:href="#r0"/><use x="6" y="22" xlink:href="#r0"/><use x="8" y="22" xlink:href="#r0"/><use x="9" y="22" xlink:href="#r0"/><use x="10" y="22" xlink:href="#r0"/><use x="11" y="22" xlink:href="#r0"/><use x="12" y="22" xlink:href="#r0"/><use x="14" y="22" xlink:href="#r0"/><use x="17" y="22" xlink:href="#r0"/><use x="18" y="22" xlink:href="#r0"/><use x="19" y="22" xlink:href="#r0"/><use x="20" y="22" xlink:href="#r0"/><use x="21" y="22" xlink:href="#r0"/><use x="22" y="22" xlink:href="#r0"/><use x="23" y="22" xlink:href="#r0"/><use x="24" y="22" xlink:href="#r0"/><use x="27" y="22" xlink:href="#r0"/><use x="28" y="22" xlink:href="#r0"/><use x="31" y="22" xlink:href="#r0"/><use x="32" y="22" xlink:href="#r0"/><use x="36" y="22" xlink:href="#r0"/><use x="4" y="23" xlink:href="#r0"/><use x="14" y="23" xlink:href="#r0"/><use x="16" y="23" xlink:href="#r0"/><use x="17" y="23" xlink:href="#r0"/><use x="21" y="23" xlink:href="#r0"/><use x="23" y="23" xlink:href="#r0"/><use x="25" y="23" xlink:href="#r0"/><use x="26" y="23" xlink:href="#r0"/><use x="27" y="23" xlink:href="#r0"/><use x="28" y="23" xlink:href="#r0"/><use x="30" y="23" xlink:href="#r0"/><use x="33" y="23" xlink:href="#r0"/><use x="36" y="23" xlink:href="#r0"/><use x="4" y="24" xlink:href="#r0"/><use x="6" y="24" xlink:href="#r0"/><use x="7" y="24" xlink:href="#r0"/><use x="9" y="24" xlink:href="#r0"/><use x="10" y="24" xlink:href="#r0"/><use x="12" y="24" xlink:href="#r0"/><use x="13" y="24" xlink:href="#r0"/><use x="14" y="24" xlink:href="#r0"/><use x="16" y="24" xlink:href="#r0"/><use x="18" y="24" xlink:href="#r0"/><use x="19" y="24" xlink:href="#r0"/><use x="20" y="24" xlink:href="#r0"/><use x="22" y="24" xlink:href="#r0"/><use x="26" y="24" xlink:href="#r0"/><use x="28" y="24" xlink:href="#r0"/><use x="29" y="24" xlink:href="#r0"/><use x="30" y="24" xlink:href="#r0"/><use x="33" y="24" xlink:href="#r0"/><use x="35" y="24" xlink:href="#r0"/><use x="4" y="25" xlink:href="#r0"/><use x="7" y="25" xlink:href="#r0"/><use x="11" y="25" xlink:href="#r0"/><use x="13" y="25" xlink:href="#r0"/><use x="14" y="25" xlink:href="#r0"/><use x="19" y="25" xlink:href="#r0"/><use x="22" y="25" xlink:href="#r0"/><use x="23" y="25" xlink:href="#r0"/><use x="25" y="25" xlink:href="#r0"/><use x="26" y="25" xlink:href="#r0"/><use x="27" y="25" xlink:href="#r0"/><use x="28" y="25" xlink:href="#r0"/><use x="29" y="25" xlink:href="#r0"/><use x="30" y="25" xlink:href="#r0"/><use x="31" y="25" xlink:href="#r0"/><use x="34" y="25" xlink:href="#r0"/><use x="35" y="25" xlink:href="#r0"/><use x="36" y="25" xlink:href="#r0"/><use x="4" y="26" xlink:href="#r0"/><use x="7" y="26" xlink:href="#r0"/><use x="9" y="26" xlink:href="#r0"/><use x="10" y="26" xlink:href="#r0"/><use x="15" y="26" xlink:href="#r0"/><use x="16" y="26" xlink:href="#r0"/><use x="20" y="26" xlink:href="#r0"/><use x="21" y="26" xlink:href="#r0"/><use x="22" y="26" xlink:href="#r0"/><use x="29" y="26" xlink:href="#r0"/><use x="31" y="26" xlink:href="#r0"/><use x="32" y="26" xlink:href="#r0"/><use x="36" y="26" xlink:href="#r0"/><use x="4" y="27" xlink:href="#r0"/><use x="7" y="27" xlink:href="#r0"/><use x="8" y="27" xlink:href="#r0"/><use x="9" y="27" xlink:href="#r0"/><use x="12" y="27" xlink:href="#r0"/><use x="13" y="27" xlink:href="#r0"/><use x="15" y="27" xlink:href="#r0"/><use x="18" y="27" xlink:href="#r0"/><use x="21" y="27" xlink:href="#r0"/><use x="23" y="27" xlink:href="#r0"/><use x="24" y="27" xlink:href="#r0"/><use x="25" y="27" xlink:href="#r0"/><use x="26" y="27" xlink:href="#r0"/><use x="27" y="27" xlink:href="#r0"/><use x="29" y="27" xlink:href="#r0"/><use x="30" y="27" xlink:href="#r0"/><use x="33" y="27" xlink:href="#r0"/><use x="35" y="27" xlink:href="#r0"/><use x="36" y="27" xlink:href="#r0"/><use x="4" y="28" xlink:href="#r0"/><use x="6" y="28" xlink:href="#r0"/><use x="9" y="28" xlink:href="#r0"/><use x="10" y="28" xlink:href="#r0"/><use x="11" y="28" xlink:href="#r0"/><use x="15" y="28" xlink:href="#r0"/><use x="19" y="28" xlink:href="#r0"/><use x="20" y="28" xlink:href="#r0"/><use x="22" y="28" xlink:href="#r0"/><use x="24" y="28" xlink:href="#r0"/><use x="25" y="28" xlink:href="#r0"/><use x="28" y="28" xlink:href="#r0"/><use x="29" y="28" xlink:href="#r0"/><use x="30" y="28" xlink:href="#r0"/><use x="31" y="28" xlink:href="#r0"/><use x="32" y="28" xlink:href="#r0"/><use x="33" y="28" xlink:href="#r0"/><use x="12" y="29" xlink:href="#r0"/><use x="14" y="29" xlink:href="#r0"/><use x="16" y="29" xlink:href="#r0"/><use x="17" y="29" xlink:href="#r0"/><use x="18" y="29" xlink:href="#r0"/><use x="19" y="29" xlink:href="#r0"/><use x="24" y="29" xlink:href="#r0"/><use x="25" y="29" xlink:href="#r0"/><use x="27" y="29" xlink:href="#r0"/><use x="28" y="29" xlink:href="#r0"/><use x="32" y="29" xlink:href="#r0"/><use x="33" y="29" xlink:href="#r0"/><use x="34" y="29" xlink:href="#r0"/><use x="4" y="30" xlink:href="#r0"/><use x="5" y="30" xlink:href="#r0"/><use x="6" y="30" xlink:href="#r0"/><use x="7" y="30" xlink:href="#r0"/><use x="8" y="30" xlink:href="#r0"/><use x="9" y="30" xlink:href="#r0"/><use x="10" y="30" xlink:href="#r0"/><use x="12" y="30" xlink:href="#r0"/><use x="14" y="30" xlink:href="#r0"/><use x="17" y="30" xlink:href="#r0"/><use x="18" y="30" xlink:href="#r0"/><use x="19" y="30" xlink:href="#r0"/><use x="21" y="30" xlink:href="#r0"/><use x="22" y="30" xlink:href="#r0"/><use x="26" y="30" xlink:href="#r0"/><use x="28" y="30" xlink:href="#r0"/><use x="30" y="30" xlink:href="#r0"/><use x="32" y="30" xlink:href="#r0"/><use x="35" y="30" xlink:href="#r0"/><use x="4" y="31" xlink:href="#r0"/><use x="10" y="31" xlink:href="#r0"/><use x="13" y="31" xlink:href="#r0"/><use x="14" y="31" xlink:href="#r0"/><use x="16" y="31" xlink:href="#r0"/><use x="17" y="31" xlink:href="#r0"/><use x="20" y="31" xlink:href="#r0"/><use x="23" y="31" xlink:href="#r0"/><use x="24" y="31" xlink:href="#r0"/><use x="25" y="31" xlink:href="#r0"/><use x="27" y="31" xlink:href="#r0"/><use x="28" y="31" xlink:href="#r0"/><use x="32" y="31" xlink:href="#r0"/><use x="33" y="31" xlink:href="#r0"/><use x="36" y="31" xlink:href="#r0"/><use x="4" y="32" xlink:href="#r0"/><use x="6" y="32" xlink:href="#r0"/><use x="7" y="32" xlink:href="#r0"/><use x="8" y="32" xlink:href="#r0"/><use x="10" y="32" xlink:href="#r0"/><use x="12" y="32" xlink:href="#r0"/><use x="14" y="32" xlink:href="#r0"/><use x="16" y="32" xlink:href="#r0"/><use x="18" y="32" xlink:href="#r0"/><use x="19" y="32" xlink:href="#r0"/><use x="20" y="32" xlink:href="#r0"/><use x="21" y="32" xlink:href="#r0"/><use x="22" y="32" xlink:href="#r0"/><use x="25" y="32" xlink:href="#r0"/><use x="26" y="32" xlink:href="#r0"/><use x="28" y="32" xlink:href="#r0"/><use x="29" y="32" xlink:href="#r0"/><use x="30" y="32" xlink:href="#r0"/><use x="31" y="32" xlink:href="#r0"/><use x="32" y="32" xlink:href="#r0"/><use x="34" y="32" xlink:href="#r0"/><use x="36" y="32" xlink:href="#r0"/><use x="4" y="33" xlink:href="#r0"/><use x="6" y="33" xlink:href="#r0"/><use x="7" y="33" xlink:href="#r0"/><use x="8" y="33" xlink:href="#r0"/><use x="10" y="33" xlink:href="#r0"/><use x="12" y="33" xlink:href="#r0"/><use x="14" y="33" xlink:href="#r0"/><use x="19" y="33" xlink:href="#r0"/><use x="20" y="33" xlink:href="#r0"/><use x="24" y="33" xlink:href="#r0"/><use x="25" y="33" xlink:href="#r0"/><use x="26" y="33" xlink:href="#r0"/><use x="29" y="33" xlink:href="#r0"/><use x="32" y="33" xlink:href="#r0"/><use x="33" y="33" xlink:href="#r0"/><use x="34" y="33" xlink:href="#r0"/><use x="35" y="33" xlink:href="#r0"/><use x="4" y="34" xlink:href="#r0"/><use x="6" y="34" xlink:href="#r0"/><use x="7" y="34" xlink:href="#r0"/><use x="8" y="34" xlink:href="#r0"/><use x="10" y="34" xlink:href="#r0"/><use x="12" y="34" xlink:href="#r0"/><use x="14" y="34" xlink:href="#r0"/><use x="15" y="34" xlink:href="#r0"/><use x="16" y="34" xlink:href="#r0"/><use x="19" y="34" xlink:href="#r0"/><use x="21" y="34" xlink:href="#r0"/><use x="22" y="34" xlink:href="#r0"/><use x="26" y="34" xlink:href="#r0"/><use x="27" y="34" xlink:href="#r0"/><use x="28" y="34" xlink:href="#r0"/><use x="29" y="34" xlink:href="#r0"/><use x="31" y="34" xlink:href="#r0"/><use x="4" y="35" xlink:href="#r0"/><use x="10" y="35" xlink:href="#r0"/><use x="12" y="35" xlink:href="#r0"/><use x="13" y="35" xlink:href="#r0"/><use x="15" y="35" xlink:href="#r0"/><use x="18" y="35" xlink:href="#r0"/><use x="20" y="35" xlink:href="#r0"/><use x="23" y="35" xlink:href="#r0"/><use x="24" y="35" xlink:href="#r0"/><use x="25" y="35" xlink:href="#r0"/><use x="27" y="35" xlink:href="#r0"/><use x="29" y="35" xlink:href="#r0"/><use x="31" y="35" xlink:href="#r0"/><use x="32" y="35" xlink:href="#r0"/><use x="33" y="35" xlink:href="#r0"/><use x="35" y="35" xlink:href="#r0"/><use x="36" y="35" xlink:href="#r0"/><use x="4" y="36" xlink:href="#r0"/><use x="5" y="36" xlink:href="#r0"/><use x="6" y="36" xlink:href="#r0"/><use x="7" y="36" xlink:href="#r0"/><use x="8" y="36" xlink:href="#r0"/><use x="9" y="36" xlink:href="#r0"/><use x="10" y="36" xlink:href="#r0"/><use x="12" y="36" xlink:href="#r0"/><use x="13" y="36" xlink:href="#r0"/><use x="15" y="36" xlink:href="#r0"/><use x="19" y="36" xlink:href="#r0"/><use x="21" y="36" xlink:href="#r0"/><use x="22" y="36" xlink:href="#r0"/><use x="24" y="36" xlink:href="#r0"/><use x="25" y="36" xlink:href="#r0"/><use x="26" y="36" xlink:href="#r0"/><use x="28" y="36" xlink:href="#r0"/><use x="29" y="36" xlink:href="#r0"/><use x="30" y="36" xlink:href="#r0"/><use x="33" y="36" xlink:href="#r0"/><use x="35" y="36" xlink:href="#r0"/></svg>
+, ?))' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(327): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(935): call_user_func_array(Array, Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(216): Illuminate\Database\Eloquent\Model->save()
+#12 /mnt/dati/prj/www/camelug/app/routes_admins.php(304): ClueController::createQrCode(Object(Clue))
+#13 [internal function]: {closure}()
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []
+[2015-01-21 11:25:27] production.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `cl...', Array)
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#4 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(327): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#5 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#6 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(935): call_user_func_array(Array, Array)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(216): Illuminate\Database\Eloquent\Model->save()
+#14 /mnt/dati/prj/www/camelug/app/routes_admins.php(304): ClueController::createQrCode(Object(Clue))
+#15 [internal function]: {closure}()
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#23 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#24 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#25 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#26 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' (SQL: insert into `clues_data` (`qrcode`, `svgqrcode`, `id`) values (iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFXElEQVR4nO3dTWrmRhRA0XbIjrL/JWRNyiCTBmFQ5Pr7cs8Z25Kavgj8qCp9Xdf1Cxr+2P0AsI7cCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTsifYy/39euvsRf8T65ff7/4rfsz36/z5Gfm3WuUUc+80rtn/o63OyFyJ0TuhMidELkTMngyczf2L+vfPZkYjJqovJvVvHvCUXd/4t119v6f/oS3OyFyJ0TuhMidELkTMn0yc/fur+9RE5V3P7NyXc27u6+8zpMrPzFvwvMdb3dC5E6I3AmROyFyJ2TDZGalvRODUetqTpvDfC5vd0LkTojcCZE7IXIn5H8+mRm1suXdz4zaqfTE3tNgPoW3OyFyJ0TuhMidELkTsmEys3Llxrwpx8rTdOc9zyifshrH250QuRMid0LkTojcCZk+mTltLcfKs3xH3Wvv8zy58qfwdidE7oTInRC5EyJ3Qr6u69r9DEt9ylm1v5v3re1PWesyirc7IXInRO6EyJ0QuRMyeM3MvNUUo2YRK6+88pvdT37rbt43u/d+zeo73u6EyJ0QuRMid0LkTsjgNTOnfQ9o5e6hvfOTJ1bOakY9z1je7oTInRC5EyJ3QuROyIbdTCunHJ941sq7u5+/psiaGVhK7oTInRC5EyJ3QqZPZuZNVEbd64mVX0c6bYfRk7s/ccK6Gm93QuROiNwJkTshcidk+jkzT/72X/kt6VGTh5U7ekZNQkbda95aF2tmYBi5EyJ3QuROiNwJOeKcmb3n2Z5v5XqYUU7Yu3Tn7U6I3AmROyFyJ0TuhByxm+lu3sqNvafprjw/54m95/06ZwYmkjshcidE7oTInZANk5nzpy538+Ywe8/7XXnOzN36NU7e7oTInRC5EyJ3QuROyOBzZu5WfoF6r3fPfNo3p0bd/R1rZmAYuRMid0LkTojcCTninJmV17n7xD1QT35r1PM8sXJS9BPe7oTInRC5EyJ3QuROyPTJzCh7143cfeLOqXl3f3edJ1e2mwlekjshcidE7oTInZAjdjO9+7L2aae47D19Zd6sZuVJQbN5uxMid0LkTojcCZE7IYMnM/MmBqNOcblfZ97pK6PMW3/yZAI2j28zwURyJ0TuhMidELkTcsQ5M3u/wrx3x9PevUujnH8Szr+83QmROyFyJ0TuhMidkCMmM/PuddppMPPuNcrevV3OmYFh5E6I3AmROyFyJ2T6OTN3p53r8sTKbyqdP186/9/1HW93QuROiNwJkTshcidkw2Rm7y6kefOBeefnzPvm1Kgzgd/x1WyYSO6EyJ0QuRMid0IG72Y6zbyTXt5Zea93Vk54TGZgIrkTIndC5E6I3AkZvGbm/KnCu/UnK78n9e468yYqo9YmjbryT3i7EyJ3QuROiNwJkTsh03czrTwB+Mnd5+3fGTWveHL3086iuRs173ICMLwkd0LkTojcCZE7IUecAPzEyl02T6w8VWblzGflqTt2M8FEcidE7oTInRC5E7JhMnOaUXOPJ7OIed+lmnce8rt9SfP2Sf2EtzshcidE7oTInRC5E2Iys3QNz945zKj1MCesfnnH250QuRMid0LkTojcCTniq9nnG3We7bzvg887W/iJeWf+OGcGXpI7IXInRO6EyJ2Q6ZOZvV9rupu3tmTeqbyjphPvnnDl+hy7mWAYuRMid0LkTojcCfm6rmv3M8Ai3u6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6E/APsJh3JXBQAZAAAAABJRU5ErkJggg==, <2xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="41px" height="41px"><defs><rect id="r0" width="1" height="1" fill="#00ff32"/></defs><rect x="0" y="0" width="41" height="41" fill="#ffffff"/><use x="4" y="4" xlink:href="#r0"/><use x="5" y="4" xlink:href="#r0"/><use x="6" y="4" xlink:href="#r0"/><use x="7" y="4" xlink:href="#r0"/><use x="8" y="4" xlink:href="#r0"/><use x="9" y="4" xlink:href="#r0"/><use x="10" y="4" xlink:href="#r0"/><use x="14" y="4" xlink:href="#r0"/><use x="16" y="4" xlink:href="#r0"/><use x="20" y="4" xlink:href="#r0"/><use x="22" y="4" xlink:href="#r0"/><use x="23" y="4" xlink:href="#r0"/><use x="24" y="4" xlink:href="#r0"/><use x="25" y="4" xlink:href="#r0"/><use x="26" y="4" xlink:href="#r0"/><use x="30" y="4" xlink:href="#r0"/><use x="31" y="4" xlink:href="#r0"/><use x="32" y="4" xlink:href="#r0"/><use x="33" y="4" xlink:href="#r0"/><use x="34" y="4" xlink:href="#r0"/><use x="35" y="4" xlink:href="#r0"/><use x="36" y="4" xlink:href="#r0"/><use x="4" y="5" xlink:href="#r0"/><use x="10" y="5" xlink:href="#r0"/><use x="12" y="5" xlink:href="#r0"/><use x="14" y="5" xlink:href="#r0"/><use x="17" y="5" xlink:href="#r0"/><use x="19" y="5" xlink:href="#r0"/><use x="20" y="5" xlink:href="#r0"/><use x="21" y="5" xlink:href="#r0"/><use x="22" y="5" xlink:href="#r0"/><use x="24" y="5" xlink:href="#r0"/><use x="28" y="5" xlink:href="#r0"/><use x="30" y="5" xlink:href="#r0"/><use x="36" y="5" xlink:href="#r0"/><use x="4" y="6" xlink:href="#r0"/><use x="6" y="6" xlink:href="#r0"/><use x="7" y="6" xlink:href="#r0"/><use x="8" y="6" xlink:href="#r0"/><use x="10" y="6" xlink:href="#r0"/><use x="16" y="6" xlink:href="#r0"/><use x="18" y="6" xlink:href="#r0"/><use x="23" y="6" xlink:href="#r0"/><use x="27" y="6" xlink:href="#r0"/><use x="30" y="6" xlink:href="#r0"/><use x="32" y="6" xlink:href="#r0"/><use x="33" y="6" xlink:href="#r0"/><use x="34" y="6" xlink:href="#r0"/><use x="36" y="6" xlink:href="#r0"/><use x="4" y="7" xlink:href="#r0"/><use x="6" y="7" xlink:href="#r0"/><use x="7" y="7" xlink:href="#r0"/><use x="8" y="7" xlink:href="#r0"/><use x="10" y="7" xlink:href="#r0"/><use x="12" y="7" xlink:href="#r0"/><use x="13" y="7" xlink:href="#r0"/><use x="14" y="7" xlink:href="#r0"/><use x="16" y="7" xlink:href="#r0"/><use x="18" y="7" xlink:href="#r0"/><use x="19" y="7" xlink:href="#r0"/><use x="21" y="7" xlink:href="#r0"/><use x="22" y="7" xlink:href="#r0"/><use x="26" y="7" xlink:href="#r0"/><use x="30" y="7" xlink:href="#r0"/><use x="32" y="7" xlink:href="#r0"/><use x="33" y="7" xlink:href="#r0"/><use x="34" y="7" xlink:href="#r0"/><use x="36" y="7" xlink:href="#r0"/><use x="4" y="8" xlink:href="#r0"/><use x="6" y="8" xlink:href="#r0"/><use x="7" y="8" xlink:href="#r0"/><use x="8" y="8" xlink:href="#r0"/><use x="10" y="8" xlink:href="#r0"/><use x="13" y="8" xlink:href="#r0"/><use x="19" y="8" xlink:href="#r0"/><use x="22" y="8" xlink:href="#r0"/><use x="25" y="8" xlink:href="#r0"/><use x="26" y="8" xlink:href="#r0"/><use x="30" y="8" xlink:href="#r0"/><use x="32" y="8" xlink:href="#r0"/><use x="33" y="8" xlink:href="#r0"/><use x="34" y="8" xlink:href="#r0"/><use x="36" y="8" xlink:href="#r0"/><use x="4" y="9" xlink:href="#r0"/><use x="10" y="9" xlink:href="#r0"/><use x="12" y="9" xlink:href="#r0"/><use x="13" y="9" xlink:href="#r0"/><use x="15" y="9" xlink:href="#r0"/><use x="16" y="9" xlink:href="#r0"/><use x="19" y="9" xlink:href="#r0"/><use x="20" y="9" xlink:href="#r0"/><use x="21" y="9" xlink:href="#r0"/><use x="22" y="9" xlink:href="#r0"/><use x="23" y="9" xlink:href="#r0"/><use x="24" y="9" xlink:href="#r0"/><use x="30" y="9" xlink:href="#r0"/><use x="36" y="9" xlink:href="#r0"/><use x="4" y="10" xlink:href="#r0"/><use x="5" y="10" xlink:href="#r0"/><use x="6" y="10" xlink:href="#r0"/><use x="7" y="10" xlink:href="#r0"/><use x="8" y="10" xlink:href="#r0"/><use x="9" y="10" xlink:href="#r0"/><use x="10" y="10" xlink:href="#r0"/><use x="12" y="10" xlink:href="#r0"/><use x="14" y="10" xlink:href="#r0"/><use x="16" y="10" xlink:href="#r0"/><use x="18" y="10" xlink:href="#r0"/><use x="20" y="10" xlink:href="#r0"/><use x="22" y="10" xlink:href="#r0"/><use x="24" y="10" xlink:href="#r0"/><use x="26" y="10" xlink:href="#r0"/><use x="28" y="10" xlink:href="#r0"/><use x="30" y="10" xlink:href="#r0"/><use x="31" y="10" xlink:href="#r0"/><use x="32" y="10" xlink:href="#r0"/><use x="33" y="10" xlink:href="#r0"/><use x="34" y="10" xlink:href="#r0"/><use x="35" y="10" xlink:href="#r0"/><use x="36" y="10" xlink:href="#r0"/><use x="13" y="11" xlink:href="#r0"/><use x="14" y="11" xlink:href="#r0"/><use x="15" y="11" xlink:href="#r0"/><use x="23" y="11" xlink:href="#r0"/><use x="25" y="11" xlink:href="#r0"/><use x="26" y="11" xlink:href="#r0"/><use x="27" y="11" xlink:href="#r0"/><use x="4" y="12" xlink:href="#r0"/><use x="5" y="12" xlink:href="#r0"/><use x="6" y="12" xlink:href="#r0"/><use x="7" y="12" xlink:href="#r0"/><use x="8" y="12" xlink:href="#r0"/><use x="10" y="12" xlink:href="#r0"/><use x="11" y="12" xlink:href="#r0"/><use x="12" y="12" xlink:href="#r0"/><use x="13" y="12" xlink:href="#r0"/><use x="15" y="12" xlink:href="#r0"/><use x="19" y="12" xlink:href="#r0"/><use x="24" y="12" xlink:href="#r0"/><use x="25" y="12" xlink:href="#r0"/><use x="28" y="12" xlink:href="#r0"/><use x="29" y="12" xlink:href="#r0"/><use x="31" y="12" xlink:href="#r0"/><use x="33" y="12" xlink:href="#r0"/><use x="35" y="12" xlink:href="#r0"/><use x="4" y="13" xlink:href="#r0"/><use x="12" y="13" xlink:href="#r0"/><use x="14" y="13" xlink:href="#r0"/><use x="16" y="13" xlink:href="#r0"/><use x="17" y="13" xlink:href="#r0"/><use x="19" y="13" xlink:href="#r0"/><use x="20" y="13" xlink:href="#r0"/><use x="23" y="13" xlink:href="#r0"/><use x="24" y="13" xlink:href="#r0"/><use x="25" y="13" xlink:href="#r0"/><use x="26" y="13" xlink:href="#r0"/><use x="29" y="13" xlink:href="#r0"/><use x="30" y="13" xlink:href="#r0"/><use x="32" y="13" xlink:href="#r0"/><use x="33" y="13" xlink:href="#r0"/><use x="34" y="13" xlink:href="#r0"/><use x="6" y="14" xlink:href="#r0"/><use x="7" y="14" xlink:href="#r0"/><use x="9" y="14" xlink:href="#r0"/><use x="10" y="14" xlink:href="#r0"/><use x="12" y="14" xlink:href="#r0"/><use x="14" y="14" xlink:href="#r0"/><use x="17" y="14" xlink:href="#r0"/><use x="18" y="14" xlink:href="#r0"/><use x="19" y="14" xlink:href="#r0"/><use x="20" y="14" xlink:href="#r0"/><use x="21" y="14" xlink:href="#r0"/><use x="24" y="14" xlink:href="#r0"/><use x="26" y="14" xlink:href="#r0"/><use x="27" y="14" xlink:href="#r0"/><use x="28" y="14" xlink:href="#r0"/><use x="29" y="14" xlink:href="#r0"/><use x="31" y="14" xlink:href="#r0"/><use x="32" y="14" xlink:href="#r0"/><use x="33" y="14" xlink:href="#r0"/><use x="35" y="14" xlink:href="#r0"/><use x="5" y="15" xlink:href="#r0"/><use x="6" y="15" xlink:href="#r0"/><use x="8" y="15" xlink:href="#r0"/><use x="11" y="15" xlink:href="#r0"/><use x="12" y="15" xlink:href="#r0"/><use x="16" y="15" xlink:href="#r0"/><use x="17" y="15" xlink:href="#r0"/><use x="22" y="15" xlink:href="#r0"/><use x="23" y="15" xlink:href="#r0"/><use x="25" y="15" xlink:href="#r0"/><use x="27" y="15" xlink:href="#r0"/><use x="29" y="15" xlink:href="#r0"/><use x="30" y="15" xlink:href="#r0"/><use x="34" y="15" xlink:href="#r0"/><use x="35" y="15" xlink:href="#r0"/><use x="36" y="15" xlink:href="#r0"/><use x="4" y="16" xlink:href="#r0"/><use x="6" y="16" xlink:href="#r0"/><use x="7" y="16" xlink:href="#r0"/><use x="8" y="16" xlink:href="#r0"/><use x="10" y="16" xlink:href="#r0"/><use x="11" y="16" xlink:href="#r0"/><use x="13" y="16" xlink:href="#r0"/><use x="14" y="16" xlink:href="#r0"/><use x="16" y="16" xlink:href="#r0"/><use x="18" y="16" xlink:href="#r0"/><use x="19" y="16" xlink:href="#r0"/><use x="20" y="16" xlink:href="#r0"/><use x="22" y="16" xlink:href="#r0"/><use x="25" y="16" xlink:href="#r0"/><use x="26" y="16" xlink:href="#r0"/><use x="31" y="16" xlink:href="#r0"/><use x="34" y="16" xlink:href="#r0"/><use x="35" y="16" xlink:href="#r0"/><use x="4" y="17" xlink:href="#r0"/><use x="7" y="17" xlink:href="#r0"/><use x="8" y="17" xlink:href="#r0"/><use x="11" y="17" xlink:href="#r0"/><use x="12" y="17" xlink:href="#r0"/><use x="23" y="17" xlink:href="#r0"/><use x="25" y="17" xlink:href="#r0"/><use x="27" y="17" xlink:href="#r0"/><use x="28" y="17" xlink:href="#r0"/><use x="29" y="17" xlink:href="#r0"/><use x="30" y="17" xlink:href="#r0"/><use x="31" y="17" xlink:href="#r0"/><use x="32" y="17" xlink:href="#r0"/><use x="34" y="17" xlink:href="#r0"/><use x="5" y="18" xlink:href="#r0"/><use x="6" y="18" xlink:href="#r0"/><use x="7" y="18" xlink:href="#r0"/><use x="10" y="18" xlink:href="#r0"/><use x="13" y="18" xlink:href="#r0"/><use x="14" y="18" xlink:href="#r0"/><use x="15" y="18" xlink:href="#r0"/><use x="16" y="18" xlink:href="#r0"/><use x="19" y="18" xlink:href="#r0"/><use x="21" y="18" xlink:href="#r0"/><use x="22" y="18" xlink:href="#r0"/><use x="24" y="18" xlink:href="#r0"/><use x="28" y="18" xlink:href="#r0"/><use x="29" y="18" xlink:href="#r0"/><use x="31" y="18" xlink:href="#r0"/><use x="32" y="18" xlink:href="#r0"/><use x="33" y="18" xlink:href="#r0"/><use x="35" y="18" xlink:href="#r0"/><use x="5" y="19" xlink:href="#r0"/><use x="8" y="19" xlink:href="#r0"/><use x="11" y="19" xlink:href="#r0"/><use x="12" y="19" xlink:href="#r0"/><use x="13" y="19" xlink:href="#r0"/><use x="14" y="19" xlink:href="#r0"/><use x="15" y="19" xlink:href="#r0"/><use x="18" y="19" xlink:href="#r0"/><use x="20" y="19" xlink:href="#r0"/><use x="23" y="19" xlink:href="#r0"/><use x="25" y="19" xlink:href="#r0"/><use x="26" y="19" xlink:href="#r0"/><use x="27" y="19" xlink:href="#r0"/><use x="29" y="19" xlink:href="#r0"/><use x="30" y="19" xlink:href="#r0"/><use x="35" y="19" xlink:href="#r0"/><use x="36" y="19" xlink:href="#r0"/><use x="6" y="20" xlink:href="#r0"/><use x="7" y="20" xlink:href="#r0"/><use x="9" y="20" xlink:href="#r0"/><use x="10" y="20" xlink:href="#r0"/><use x="11" y="20" xlink:href="#r0"/><use x="12" y="20" xlink:href="#r0"/><use x="13" y="20" xlink:href="#r0"/><use x="14" y="20" xlink:href="#r0"/><use x="15" y="20" xlink:href="#r0"/><use x="19" y="20" xlink:href="#r0"/><use x="20" y="20" xlink:href="#r0"/><use x="21" y="20" xlink:href="#r0"/><use x="22" y="20" xlink:href="#r0"/><use x="24" y="20" xlink:href="#r0"/><use x="26" y="20" xlink:href="#r0"/><use x="29" y="20" xlink:href="#r0"/><use x="31" y="20" xlink:href="#r0"/><use x="35" y="20" xlink:href="#r0"/><use x="4" y="21" xlink:href="#r0"/><use x="8" y="21" xlink:href="#r0"/><use x="12" y="21" xlink:href="#r0"/><use x="13" y="21" xlink:href="#r0"/><use x="16" y="21" xlink:href="#r0"/><use x="17" y="21" xlink:href="#r0"/><use x="18" y="21" xlink:href="#r0"/><use x="19" y="21" xlink:href="#r0"/><use x="22" y="21" xlink:href="#r0"/><use x="25" y="21" xlink:href="#r0"/><use x="26" y="21" xlink:href="#r0"/><use x="27" y="21" xlink:href="#r0"/><use x="32" y="21" xlink:href="#r0"/><use x="34" y="21" xlink:href="#r0"/><use x="4" y="22" xlink:href="#r0"/><use x="5" y="22" xlink:href="#r0"/><use x="6" y="22" xlink:href="#r0"/><use x="7" y="22" xlink:href="#r0"/><use x="8" y="22" xlink:href="#r0"/><use x="10" y="22" xlink:href="#r0"/><use x="12" y="22" xlink:href="#r0"/><use x="17" y="22" xlink:href="#r0"/><use x="18" y="22" xlink:href="#r0"/><use x="19" y="22" xlink:href="#r0"/><use x="20" y="22" xlink:href="#r0"/><use x="21" y="22" xlink:href="#r0"/><use x="24" y="22" xlink:href="#r0"/><use x="26" y="22" xlink:href="#r0"/><use x="27" y="22" xlink:href="#r0"/><use x="28" y="22" xlink:href="#r0"/><use x="31" y="22" xlink:href="#r0"/><use x="32" y="22" xlink:href="#r0"/><use x="36" y="22" xlink:href="#r0"/><use x="4" y="23" xlink:href="#r0"/><use x="6" y="23" xlink:href="#r0"/><use x="8" y="23" xlink:href="#r0"/><use x="9" y="23" xlink:href="#r0"/><use x="11" y="23" xlink:href="#r0"/><use x="14" y="23" xlink:href="#r0"/><use x="16" y="23" xlink:href="#r0"/><use x="17" y="23" xlink:href="#r0"/><use x="22" y="23" xlink:href="#r0"/><use x="23" y="23" xlink:href="#r0"/><use x="25" y="23" xlink:href="#r0"/><use x="27" y="23" xlink:href="#r0"/><use x="28" y="23" xlink:href="#r0"/><use x="30" y="23" xlink:href="#r0"/><use x="33" y="23" xlink:href="#r0"/><use x="36" y="23" xlink:href="#r0"/><use x="5" y="24" xlink:href="#r0"/><use x="7" y="24" xlink:href="#r0"/><use x="8" y="24" xlink:href="#r0"/><use x="10" y="24" xlink:href="#r0"/><use x="11" y="24" xlink:href="#r0"/><use x="12" y="24" xlink:href="#r0"/><use x="16" y="24" xlink:href="#r0"/><use x="18" y="24" xlink:href="#r0"/><use x="19" y="24" xlink:href="#r0"/><use x="20" y="24" xlink:href="#r0"/><use x="21" y="24" xlink:href="#r0"/><use x="22" y="24" xlink:href="#r0"/><use x="25" y="24" xlink:href="#r0"/><use x="26" y="24" xlink:href="#r0"/><use x="28" y="24" xlink:href="#r0"/><use x="29" y="24" xlink:href="#r0"/><use x="30" y="24" xlink:href="#r0"/><use x="33" y="24" xlink:href="#r0"/><use x="35" y="24" xlink:href="#r0"/><use x="4" y="25" xlink:href="#r0"/><use x="7" y="25" xlink:href="#r0"/><use x="8" y="25" xlink:href="#r0"/><use x="9" y="25" xlink:href="#r0"/><use x="11" y="25" xlink:href="#r0"/><use x="14" y="25" xlink:href="#r0"/><use x="19" y="25" xlink:href="#r0"/><use x="20" y="25" xlink:href="#r0"/><use x="23" y="25" xlink:href="#r0"/><use x="25" y="25" xlink:href="#r0"/><use x="26" y="25" xlink:href="#r0"/><use x="27" y="25" xlink:href="#r0"/><use x="28" y="25" xlink:href="#r0"/><use x="29" y="25" xlink:href="#r0"/><use x="30" y="25" xlink:href="#r0"/><use x="31" y="25" xlink:href="#r0"/><use x="34" y="25" xlink:href="#r0"/><use x="35" y="25" xlink:href="#r0"/><use x="36" y="25" xlink:href="#r0"/><use x="4" y="26" xlink:href="#r0"/><use x="10" y="26" xlink:href="#r0"/><use x="12" y="26" xlink:href="#r0"/><use x="13" y="26" xlink:href="#r0"/><use x="14" y="26" xlink:href="#r0"/><use x="15" y="26" xlink:href="#r0"/><use x="16" y="26" xlink:href="#r0"/><use x="19" y="26" xlink:href="#r0"/><use x="20" y="26" xlink:href="#r0"/><use x="21" y="26" xlink:href="#r0"/><use x="22" y="26" xlink:href="#r0"/><use x="29" y="26" xlink:href="#r0"/><use x="31" y="26" xlink:href="#r0"/><use x="32" y="26" xlink:href="#r0"/><use x="36" y="26" xlink:href="#r0"/><use x="4" y="27" xlink:href="#r0"/><use x="6" y="27" xlink:href="#r0"/><use x="8" y="27" xlink:href="#r0"/><use x="9" y="27" xlink:href="#r0"/><use x="12" y="27" xlink:href="#r0"/><use x="13" y="27" xlink:href="#r0"/><use x="14" y="27" xlink:href="#r0"/><use x="15" y="27" xlink:href="#r0"/><use x="18" y="27" xlink:href="#r0"/><use x="21" y="27" xlink:href="#r0"/><use x="23" y="27" xlink:href="#r0"/><use x="24" y="27" xlink:href="#r0"/><use x="25" y="27" xlink:href="#r0"/><use x="26" y="27" xlink:href="#r0"/><use x="27" y="27" xlink:href="#r0"/><use x="29" y="27" xlink:href="#r0"/><use x="30" y="27" xlink:href="#r0"/><use x="33" y="27" xlink:href="#r0"/><use x="35" y="27" xlink:href="#r0"/><use x="36" y="27" xlink:href="#r0"/><use x="4" y="28" xlink:href="#r0"/><use x="7" y="28" xlink:href="#r0"/><use x="10" y="28" xlink:href="#r0"/><use x="12" y="28" xlink:href="#r0"/><use x="14" y="28" xlink:href="#r0"/><use x="15" y="28" xlink:href="#r0"/><use x="19" y="28" xlink:href="#r0"/><use x="20" y="28" xlink:href="#r0"/><use x="22" y="28" xlink:href="#r0"/><use x="24" y="28" xlink:href="#r0"/><use x="28" y="28" xlink:href="#r0"/><use x="29" y="28" xlink:href="#r0"/><use x="30" y="28" xlink:href="#r0"/><use x="31" y="28" xlink:href="#r0"/><use x="32" y="28" xlink:href="#r0"/><use x="33" y="28" xlink:href="#r0"/><use x="12" y="29" xlink:href="#r0"/><use x="13" y="29" xlink:href="#r0"/><use x="16" y="29" xlink:href="#r0"/><use x="17" y="29" xlink:href="#r0"/><use x="18" y="29" xlink:href="#r0"/><use x="19" y="29" xlink:href="#r0"/><use x="22" y="29" xlink:href="#r0"/><use x="23" y="29" xlink:href="#r0"/><use x="24" y="29" xlink:href="#r0"/><use x="25" y="29" xlink:href="#r0"/><use x="26" y="29" xlink:href="#r0"/><use x="27" y="29" xlink:href="#r0"/><use x="28" y="29" xlink:href="#r0"/><use x="32" y="29" xlink:href="#r0"/><use x="33" y="29" xlink:href="#r0"/><use x="34" y="29" xlink:href="#r0"/><use x="4" y="30" xlink:href="#r0"/><use x="5" y="30" xlink:href="#r0"/><use x="6" y="30" xlink:href="#r0"/><use x="7" y="30" xlink:href="#r0"/><use x="8" y="30" xlink:href="#r0"/><use x="9" y="30" xlink:href="#r0"/><use x="10" y="30" xlink:href="#r0"/><use x="12" y="30" xlink:href="#r0"/><use x="14" y="30" xlink:href="#r0"/><use x="17" y="30" xlink:href="#r0"/><use x="18" y="30" xlink:href="#r0"/><use x="20" y="30" xlink:href="#r0"/><use x="21" y="30" xlink:href="#r0"/><use x="22" y="30" xlink:href="#r0"/><use x="24" y="30" xlink:href="#r0"/><use x="28" y="30" xlink:href="#r0"/><use x="30" y="30" xlink:href="#r0"/><use x="32" y="30" xlink:href="#r0"/><use x="35" y="30" xlink:href="#r0"/><use x="4" y="31" xlink:href="#r0"/><use x="10" y="31" xlink:href="#r0"/><use x="13" y="31" xlink:href="#r0"/><use x="14" y="31" xlink:href="#r0"/><use x="16" y="31" xlink:href="#r0"/><use x="17" y="31" xlink:href="#r0"/><use x="23" y="31" xlink:href="#r0"/><use x="25" y="31" xlink:href="#r0"/><use x="26" y="31" xlink:href="#r0"/><use x="27" y="31" xlink:href="#r0"/><use x="28" y="31" xlink:href="#r0"/><use x="32" y="31" xlink:href="#r0"/><use x="33" y="31" xlink:href="#r0"/><use x="36" y="31" xlink:href="#r0"/><use x="4" y="32" xlink:href="#r0"/><use x="6" y="32" xlink:href="#r0"/><use x="7" y="32" xlink:href="#r0"/><use x="8" y="32" xlink:href="#r0"/><use x="10" y="32" xlink:href="#r0"/><use x="12" y="32" xlink:href="#r0"/><use x="13" y="32" xlink:href="#r0"/><use x="14" y="32" xlink:href="#r0"/><use x="16" y="32" xlink:href="#r0"/><use x="18" y="32" xlink:href="#r0"/><use x="19" y="32" xlink:href="#r0"/><use x="21" y="32" xlink:href="#r0"/><use x="28" y="32" xlink:href="#r0"/><use x="29" y="32" xlink:href="#r0"/><use x="30" y="32" xlink:href="#r0"/><use x="31" y="32" xlink:href="#r0"/><use x="32" y="32" xlink:href="#r0"/><use x="34" y="32" xlink:href="#r0"/><use x="36" y="32" xlink:href="#r0"/><use x="4" y="33" xlink:href="#r0"/><use x="6" y="33" xlink:href="#r0"/><use x="7" y="33" xlink:href="#r0"/><use x="8" y="33" xlink:href="#r0"/><use x="10" y="33" xlink:href="#r0"/><use x="12" y="33" xlink:href="#r0"/><use x="13" y="33" xlink:href="#r0"/><use x="19" y="33" xlink:href="#r0"/><use x="20" y="33" xlink:href="#r0"/><use x="22" y="33" xlink:href="#r0"/><use x="23" y="33" xlink:href="#r0"/><use x="25" y="33" xlink:href="#r0"/><use x="29" y="33" xlink:href="#r0"/><use x="32" y="33" xlink:href="#r0"/><use x="33" y="33" xlink:href="#r0"/><use x="34" y="33" xlink:href="#r0"/><use x="35" y="33" xlink:href="#r0"/><use x="4" y="34" xlink:href="#r0"/><use x="6" y="34" xlink:href="#r0"/><use x="7" y="34" xlink:href="#r0"/><use x="8" y="34" xlink:href="#r0"/><use x="10" y="34" xlink:href="#r0"/><use x="12" y="34" xlink:href="#r0"/><use x="13" y="34" xlink:href="#r0"/><use x="14" y="34" xlink:href="#r0"/><use x="15" y="34" xlink:href="#r0"/><use x="16" y="34" xlink:href="#r0"/><use x="19" y="34" xlink:href="#r0"/><use x="21" y="34" xlink:href="#r0"/><use x="22" y="34" xlink:href="#r0"/><use x="24" y="34" xlink:href="#r0"/><use x="27" y="34" xlink:href="#r0"/><use x="28" y="34" xlink:href="#r0"/><use x="29" y="34" xlink:href="#r0"/><use x="31" y="34" xlink:href="#r0"/><use x="4" y="35" xlink:href="#r0"/><use x="10" y="35" xlink:href="#r0"/><use x="12" y="35" xlink:href="#r0"/><use x="13" y="35" xlink:href="#r0"/><use x="14" y="35" xlink:href="#r0"/><use x="15" y="35" xlink:href="#r0"/><use x="18" y="35" xlink:href="#r0"/><use x="20" y="35" xlink:href="#r0"/><use x="23" y="35" xlink:href="#r0"/><use x="25" y="35" xlink:href="#r0"/><use x="26" y="35" xlink:href="#r0"/><use x="27" y="35" xlink:href="#r0"/><use x="29" y="35" xlink:href="#r0"/><use x="31" y="35" xlink:href="#r0"/><use x="32" y="35" xlink:href="#r0"/><use x="33" y="35" xlink:href="#r0"/><use x="35" y="35" xlink:href="#r0"/><use x="36" y="35" xlink:href="#r0"/><use x="4" y="36" xlink:href="#r0"/><use x="5" y="36" xlink:href="#r0"/><use x="6" y="36" xlink:href="#r0"/><use x="7" y="36" xlink:href="#r0"/><use x="8" y="36" xlink:href="#r0"/><use x="9" y="36" xlink:href="#r0"/><use x="10" y="36" xlink:href="#r0"/><use x="12" y="36" xlink:href="#r0"/><use x="15" y="36" xlink:href="#r0"/><use x="19" y="36" xlink:href="#r0"/><use x="20" y="36" xlink:href="#r0"/><use x="25" y="36" xlink:href="#r0"/><use x="26" y="36" xlink:href="#r0"/><use x="28" y="36" xlink:href="#r0"/><use x="29" y="36" xlink:href="#r0"/><use x="30" y="36" xlink:href="#r0"/><use x="33" y="36" xlink:href="#r0"/><use x="35" y="36" xlink:href="#r0"/></svg>
+, ?))' in /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Connection.php(327): Illuminate\Database\Connection->statement('insert into `cl...', Array)
+#3 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `cl...', Array)
+#4 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `cl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /mnt/dati/prj/www/camelug/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(935): call_user_func_array(Array, Array)
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /mnt/dati/prj/www/camelug/app/controllers/ClueController.php(216): Illuminate\Database\Eloquent\Model->save()
+#12 /mnt/dati/prj/www/camelug/app/routes_admins.php(304): ClueController::createQrCode(Object(Clue))
+#13 [internal function]: {closure}()
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#15 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []
+[2015-01-21 11:29:10] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-21 11:29:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-21 11:29:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /mnt/dati/prj/www/camelug/bootstrap/compiled.php:5762
+Stack trace:
+#0 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5758): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5736): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-21 13:14:47] production.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /mnt/dati/prj/www/camelug/app/filters.php:79
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6246): call_user_func_array(Object(Closure), Array)
+#2 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(6228): Illuminate\Events\Dispatcher->fire('router.filter: ...', Array, true)
+#3 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5234): Illuminate\Events\Dispatcher->until('router.filter: ...', Array)
+#4 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5216): Illuminate\Routing\Router->callRouteFilter('csrf', Array, Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#5 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5168): Illuminate\Routing\Router->callAttachedBefores(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#6 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5050): Illuminate\Routing\Router->callRouteBefore(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#7 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#8 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#12 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /mnt/dati/prj/www/camelug/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#15 /mnt/dati/prj/www/camelug/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2015-01-21 13:46:27] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function strrandom()' in /mnt/dati/prj/www/camelug/app/routes_admins.php:619
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

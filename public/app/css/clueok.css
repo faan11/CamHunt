@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-gen-2015, 17.16.55
+    Author     : Fabio Pagnotta
+*/
+
+html {
+   height: 100%;
+}
+
+
+
+body {
+   
+
+   margin: 0;
+   height: 100%;
+   width: 100% /* needed for Firefox */
+}
+.container{
+    padding: 15% 0;
+        margin:10px;
+    overflow:auto;
+}

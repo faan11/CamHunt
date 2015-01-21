@@ -1,0 +1,12 @@
+body {
+   
+
+   margin: 0;
+   height: 100%;
+   width: 100% /* needed for Firefox */
+}
+.container{
+    padding: 15% 0;
+        margin:10px;
+    overflow:auto;
+}

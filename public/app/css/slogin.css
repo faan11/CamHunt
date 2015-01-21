@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-gen-2015, 18.10.13
+    Author     : Fabio Pagnotta
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-gen-2015, 17.16.55
+    Author     : Fabio Pagnotta
+*/
+
+html {
+   height: 100%;
+}
+
+body {
+   display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   display: -moz-box;      /* OLD: Firefox (buggy) */
+   display: -ms-flexbox;   /* MID: IE 10 */
+   display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+   display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+   -webkit-box-align: center; -moz-box-align: center; /* OLD… */
+   -ms-flex-align: center; /* You know the drill now… */
+   -webkit-align-items: center;
+   align-items: center;
+
+   -webkit-box-pack: center; -moz-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+   margin: 10px;
+   height: 100%;
+   width: 100% /* needed for Firefox */
+}
+
+.alert{
+    font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.panel-heading{
+    font-size:1em;
+    font-weight: bold;
+}
