@@ -60,7 +60,7 @@ where $WEBSITE is the path where you have the site.
 
 2 . Clone the source code:
 ```
-  git clone https://github.com/faan11/LHunt.git .
+  git clone https://github.com/faan11/CamHunt.git .
 ```
 
 
