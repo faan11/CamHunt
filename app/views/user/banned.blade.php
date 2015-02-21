@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,16 +7,8 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("user.banned")}}</title>
 @stop
 
-@section("body")
-
-<div class="container">
-
-    <div class="alert alert-danger" role="alert">
+@section("container")
+<div class="alert alert-danger" role="alert">
    {{Lang::get("user.banned")}}
-    </div>
-
 </div>
-
-
-
 @stop

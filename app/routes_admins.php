@@ -1,5 +1,11 @@
 <?php
 
+Route::get('/admin/reguser', array("before" => "admin.auth", function() {
+    $user = \User::all();
+    return View::make('admin.inreg',array("users"=>$user,"reg"=>1));
+}));
+
+
 Route::post("/admin/game/regop",array("before"=>"admin.auth",function(){
      
     

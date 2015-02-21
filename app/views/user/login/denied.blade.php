@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,16 +7,11 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("errors.internal")}}</title>
 @stop
 
-@section("body")
-
-<div class="container">
+@section("container")
 
     <div class="alert alert-danger" role="alert">
    {{Lang::get("errors.login.denied")}}
     </div>
-
-</div>
-
 
 
 @stop

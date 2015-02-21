@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,9 +7,7 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("clue.empty")}}</title>
 @stop
 
-@section("body")
-<div class="container">
-
+@section("container")
 
 <div class="panel panel-danger">
   <!-- Default panel contents -->
@@ -17,6 +15,5 @@
   <div class="panel-body">
       {{Lang::get("clue.empty.advice")}}
   </div>
-</div>
 </div>
 @stop

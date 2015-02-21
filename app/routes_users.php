@@ -205,3 +205,8 @@ Route::get("/user/clue/{hash}", array("before" => "user.auth", function($hash) {
 //Route::get('/user/clue/{id}', function($id=0) {
 //    //return View::make('clue.index');
 //});
+
+Route::get('/user/logout', array("before" => "user.auth",function() {
+    Auth::user()->logout();
+    return Redirect::to(Game::BASEURL."/user");
+}));

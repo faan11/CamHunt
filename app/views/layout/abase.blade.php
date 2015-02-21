@@ -1,5 +1,6 @@
 @extends("layout.base")
 
+
 @section("body")
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -45,7 +46,13 @@
         <li>
         @endif
         <a href="/admin/prizes">{{Lang::get("prize.names")}}</a></li>
-        
+        @if (isset($reg))
+	<li class="active" >
+	@else
+	<li>
+	@endif
+		<a href="/admin/reguser">Utenti registrati</a>
+	</li>   
         
       </ul>
 

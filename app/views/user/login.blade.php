@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,9 +7,8 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("user.names")}}</title>
 @stop
 
-@section("body")
+@section("container")
 
-<div class="container">
 
     <form class="form-signin" action="/user/login" method="POST">
         <h2 class="form-signin-heading">{{Lang::get('login.signin')}}</h2>
@@ -23,7 +22,6 @@
         <input type="hidden" name="_token" value="{{csrf_token()}}" >
     </form>
 
-</div>
 @if ($error==1)
 <br>
 <div class="alert alert-danger" role="alert">

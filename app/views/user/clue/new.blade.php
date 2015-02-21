@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,10 +7,9 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("clue.found")}}</title>
 @stop
 
-@section("body")
-<div class="container">
-
-<div class="alert alert-success" role="alert">
+@section("container")
+<div class="alert alert-success alert-dismissible" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
     {{Lang::get("clue.found")}}
 </div>
 
@@ -21,5 +20,5 @@
       {{$clue->description}}
   </div>
 </div>
-</div>
+
 @stop

@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -7,11 +7,9 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("user.names")}}</title>
 @stop
 
-@section("body")
+@section("container")
 
-<div class="container">
-
-    <form class="form-signin" action="register/op" method="POST">
+    <form class="form-signin" action="/user/register/op" method="POST">
         <h2 class="form-signin-heading">{{Lang::get('login.signup')}}</h2>
         <label for="inputEmail" class="sr-only">{{Lang::get('login.email')}}</label>
         <input name="username" type="email" id="inputEmail" class="form-control" placeholder="{{Lang::get('login.email')}}" required="" autofocus="">
@@ -27,7 +25,6 @@
         <input type="hidden" name="_token" value="{{csrf_token()}}" >
     </form>
 
-</div>
 @if ($error==1)
 <br>
 <div class="alert alert-danger" role="alert">

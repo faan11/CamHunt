@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -6,9 +6,7 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("clue.actual")}}</title>
 @stop
 
-@section("body")
-<div class="container">
-
+@section("container")
 <div class="well" >
     <h4>{{Lang::get("clue.actual")}}</h4>
 </div>
@@ -19,6 +17,5 @@
   <div class="panel-body">
       {{$clue->description}}
   </div>
-</div>
 </div>
 @stop

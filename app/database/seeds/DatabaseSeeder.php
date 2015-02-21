@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder {
 		// $this->call('UserTableSeeder');
                 $admin = new Admin;
                 $admin->username = 'root@root.it';
-                $admin->password = Hash::make('root');
+                $admin->password = Hash::make('----');
                 $admin->save();
                 \Configz::truncate();
                 $c = new Configz;

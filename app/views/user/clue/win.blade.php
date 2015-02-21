@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.user')
 
 
 @section("head")
@@ -8,9 +8,7 @@
 <title> {{Lang::get("game.title")}} - {{Lang::get("clue.win")}}</title>
 @stop
 
-@section("body")
-<div class="container">
-
+@section("container")
 
     <div class="panel panel-primary">
         <!-- Default panel contents -->
@@ -39,6 +37,5 @@
             @endforeach
         </table>
         @endif
-</div>
 </div>
 @stop
